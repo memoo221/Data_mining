@@ -18,6 +18,8 @@ df.drop_duplicates(inplace=True)
 print("After dropping duplicates:", df.shape)
 
 
+
+
 numeric_cols = ['age', 'trestbps', 'chol', 'thalach', 'oldpeak']
 def replace_outliers_with_nulls(data, columns):
     df_copy = data.copy()
